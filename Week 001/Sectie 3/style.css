@@ -19,9 +19,11 @@ h3 {
 
 p {
   color: black;
-  font-size: 22px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
 
 a {
+  font-family: "Courier New", Courier, monospace;
   color: violet;
 }
