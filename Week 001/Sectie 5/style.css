@@ -19,6 +19,7 @@ ul {
   font-size: 25px;
   font-family: sans-serif;
   color: darkcyan;
+  margin-left: 0px;
 }
 
 #aarde {
@@ -27,7 +28,7 @@ ul {
 
 #industry {
   color: white;
-  margin-right: 6cm;
+  margin-right: 75px;
 }
 
 body {
@@ -37,6 +38,10 @@ body {
 #list {
   color: white;
   list-style: none;
+}
+
+#earth-where {
+  margin-right: 100px;
 }
 
 #Heat,
