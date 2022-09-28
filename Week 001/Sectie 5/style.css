@@ -1,0 +1,56 @@
+h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: darkcyan;
+}
+
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+  color: darkcyan;
+}
+
+ul {
+  font-size: 25px;
+  font-family: sans-serif;
+  color: darkcyan;
+}
+
+#aarde {
+  color: darkcyan;
+}
+
+#industry {
+  color: white;
+  margin-right: 6cm;
+}
+
+body {
+  background-color: black;
+}
+
+#list {
+  color: white;
+  list-style: none;
+}
+
+#Heat,
+#War,
+#Air {
+  margin-right: 40px;
+}
+
+#Heat {
+  color: orange;
+}
+#War {
+  color: darkred;
+}
+#Air {
+  color: cornflowerblue;
+}
