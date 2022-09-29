@@ -1,61 +1,137 @@
-h1 {
-  font-size: 50px;
-  font-family: sans-serif;
-  color: darkcyan;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-p {
+html {
+  color: rgb(0, 0, 0);
+  font-family: "Lato", "Arial";
+  font-weight: 300;
   font-size: 20px;
-  font-family: sans-serif;
-  color: white;
+  text-rendering: optimizeLegibility;
 }
 
-h2 {
-  font-size: 30px;
-  color: darkcyan;
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
-ul {
-  font-size: 25px;
-  font-family: sans-serif;
-  color: darkcyan;
-  margin-left: 0px;
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+  margin-left: 0;
 }
 
-#aarde {
-  color: darkcyan;
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 */
 }
 
-#industry {
-  color: white;
-  margin-right: 75px;
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 15px;
 }
 
-body {
-  background-color: black;
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+  margin-left: 0;
 }
 
-#list {
-  color: white;
-  list-style: none;
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 */
 }
 
-#earth-where {
-  margin-right: 100px;
+.span_8_of_8 {
+  width: 100%;
 }
 
-#Heat,
-#War,
-#Air {
-  margin-right: 40px;
+.span_7_of_8 {
+  width: 87.3%;
 }
 
-#Heat {
-  color: orange;
+.span_6_of_8 {
+  width: 74.6%;
 }
-#War {
-  color: darkred;
+
+.span_5_of_8 {
+  width: 61.9%;
 }
-#Air {
-  color: cornflowerblue;
+
+.span_4_of_8 {
+  width: 49.2%;
+}
+
+.span_3_of_8 {
+  width: 36.5%;
+}
+
+.span_2_of_8 {
+  width: 23.8%;
+}
+
+.span_1_of_8 {
+  width: 11.1%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+  .span_8_of_8 {
+    width: 100%;
+  }
+  .span_7_of_8 {
+    width: 100%;
+  }
+  .span_6_of_8 {
+    width: 100%;
+  }
+  .span_5_of_8 {
+    width: 100%;
+  }
+  .span_4_of_8 {
+    width: 100%;
+  }
+  .span_3_of_8 {
+    width: 100%;
+  }
+  .span_2_of_8 {
+    width: 100%;
+  }
+  .span_1_of_8 {
+    width: 100%;
+  }
 }
