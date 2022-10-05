@@ -1,36 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width. initial-scale=1.0">
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="queries.css" />
-    <title>Repsonsive</title>
-  </head>
-  <body id="backgroundtiger" background="spreekbeurt-tijger.jpg">
-    
-    <img id="backgroundwit" src="white.png" alt="wit" />
-    <h1>Contactformulier</h1>
+@media only screen and (max-width: 1200px) {
+}
 
-    <p>
-      <ul>
-        <li>Naam</li>
-        <li>Email</li>
-        <li>Wachtwoord</li>
-        <li>Geslacht</li>
-        <li>Media</li>
-      </ul>
+@media only screen and (max-width: 1023px) {
+}
 
+@media only screen and (max-width: 767) {
+}
 
-    </p>
+@media only screen and (max-width: 480px) {
+}
 
-    <div id="borders">
-      
-    </div>
+html {
+  font-family: "Times New Roman", Times, serif;
+}
 
+h1 {
+  position: fixed;
+  right: 640px;
+  font-size: 30px;
+  top: 390px;
+  border-bottom: 3px, solid, blue;
+}
 
-   
-    <div class="tijgerdiv"></div>
-  </body>
-</html>
+/*
+.tijgerdiv {
+  background: url(spreekbeurt-tijger.jpg);
+  width: 50%;
+  position: absolute;
+  left: 350px;
+  top: 0px;
+  height: 50%;
+}
+
+*/
+#backgroundtiger {
+  background-image: url(spreekbeurt-tijger.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  position: absolute;
+  top: 0;
+  left: 25px;
+  width: 50px;
+  height: 50%;
+}
+
+#backgroundwit {
+  position: fixed;
+  top: 55%;
+  width: 100%;
+  left: 0px;
+}
+
+ul {
+  position: absolute;
+  top: 430px;
+  left: 500px;
+  font-size: 20px;
+  list-style: none;
+  break-after: column;
+}
