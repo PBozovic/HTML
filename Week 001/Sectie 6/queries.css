@@ -1,6 +1,9 @@
 /* Small phones 0-480px */
 
 @media only screen and (max-width: 1200px) {
+  h1 {
+    
+  
 }
 
 /* Small phones 0-480px */
@@ -36,7 +39,8 @@ h1 {
   top: 0px;
   height: 50%;
 }
-*/
+
+
 #backgroundtiger {
   background-image: url(spreekbeurt-tijger.jpg);
   background-repeat: no-repeat;
@@ -54,6 +58,7 @@ h1 {
   width: 100%;
   left: 0px;
 }
+*/
 
 ul {
   position: absolute;
@@ -62,4 +67,10 @@ ul {
   font-size: 20px;
   list-style: none;
   break-after: column;
+}
+
+.borders {
+  border: 3px solid black;
+  -webkit-text-stroke: 2px black;
+  font-family: "Times New Roman", Times, serif;
 }
