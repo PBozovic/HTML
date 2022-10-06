@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.header {
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.779),
+      rgba(0, 0, 0, 0.79)
+    ),
+    url(../img/man.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  clip-path: polygon(0 100%, 100% 100%, 100% 10%, 0% 0%);
+}
