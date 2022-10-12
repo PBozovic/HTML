@@ -11,11 +11,11 @@
 
 body {
   font-family: sans-serif;
-  background: grey;
+  background: rgba(128, 128, 128, 0.203);
 }
 
 .nav-list {
-  background: white;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 0px 10px rgb(0, 0, 0);
   margin: 0;
   padding: 1rem 0;
@@ -38,4 +38,26 @@ body {
 .nav-item:first-child {
   margin-right: auto;
   margin-left: 2rem;
+}
+
+.img-list {
+  list-style-type: none;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  object-fit: cover;
+}
+
+.img-item {
+  margin: 2px;
+  width: 32px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.img-item:first-child {
+  margin-left: auto;
+  margin-right: 75rem;
 }
